@@ -1,4 +1,4 @@
-GeneScopeX — Evolutionary Feature Extraction & Trait Mapping
+#GeneScopeX — Evolutionary Feature Extraction & Trait Mapping
 
 Advanced evolutionary data-mining project analyzing sequence variation, trait emergence, and adaptive signatures
 
@@ -7,7 +7,7 @@ It uses pattern extraction, mutation-based feature engineering, and adaptive fin
 
 This project is part of a 6-project undergraduate evolution research suite (BioSpire, EcoLens, EON, GeneFlux, Ecostrain, GeneScopeX).
 
-🔬 What GeneScopeX Does
+#🔬 What GeneScopeX Does
 
 Extracts meaningful evolutionary features from sequence datasets
 
@@ -21,7 +21,7 @@ Identifies correlations between mutation clusters and fitness improvements
 
 Generates clean graphs for mutation strength, trait gain, and variant distribution
 
-📁 Project Structure
+#📁 Project Structure
 GeneScopeX/
 │
 ├── code/
@@ -40,7 +40,7 @@ GeneScopeX/
     ├── analysis_log.json
     └── feature_summary.txt
 
-▶️ How to Run
+#▶️ How to Run
 1. Install Python 3.9+
 
 Check:
@@ -72,7 +72,7 @@ graphs/ → plots
 
 logs/ → JSON logs + summaries
 
-📊 Example Outputs
+#📊 Example Outputs
 
 feature_heatmap.png → which positions influence traits
 
@@ -84,7 +84,7 @@ feature_summary.txt → human-readable breakdown
 
 analysis_log.json → full run history
 
-🎓 Notes for Reviewers
+#🎓 Notes for Reviewers
 
 GeneScopeX demonstrates:
 
