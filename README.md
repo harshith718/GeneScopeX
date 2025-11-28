@@ -1,101 +1,102 @@
-#GeneScopeX — Evolutionary Feature Extraction & Trait Mapping
+# GeneScopeX — Genomic Pattern Exploration Engine
 
-Advanced evolutionary data-mining project analyzing sequence variation, trait emergence, and adaptive signatures
+GeneScopeX is a lightweight analysis tool designed to explore genomic patterns, motif distributions, evolutionary markers, and sequence-level signatures.  
+It focuses on high-resolution pattern detection, frequency mapping, and comparative visualization across biological sequences.
 
-GeneScopeX is designed to identify how specific mutations influence observable traits over evolutionary timelines.
-It uses pattern extraction, mutation-based feature engineering, and adaptive fingerprinting to map how small genetic changes create large phenotypic outcomes.
+This project is part of a 6-project evolutionary research suite (BioSpire, EON, GeneFlux, EcoLens, Ecostrain, GeneScopeX).
 
-This project is part of a 6-project undergraduate evolution research suite (BioSpire, EcoLens, EON, GeneFlux, Ecostrain, GeneScopeX).
+---
 
-#🔬 What GeneScopeX Does
+## 🔍 Purpose
 
-Extracts meaningful evolutionary features from sequence datasets
+GeneScopeX helps you:
 
-Computes mutation hotspots and functional sensitivity regions
+- Detect repeating motifs and conserved sequence patterns  
+- Measure GC content and nucleotide distribution  
+- Identify high-mutation or low-mutation zones  
+- Compare different sequences using aligned statistics  
+- Visualize genomic features using simple and interpretable plots  
 
-Maps genotype → phenotype relationships
+It is designed to be a simple, beginner-friendly bioinformatics toolkit for exploring DNA/RNA or protein patterns.
 
-Performs adaptive signal analysis
+---
 
-Identifies correlations between mutation clusters and fitness improvements
+## 📁 Project Structure
 
-Generates clean graphs for mutation strength, trait gain, and variant distribution
+```
+code/
+   genescopex_code/
+      patterns.py
+      statistics.py
+      plot_patterns.py
+      example_sequence.fasta
 
-#📁 Project Structure
-GeneScopeX/
-│
-├── code/
-│   ├── genescopex_analysis.py
-│   ├── feature_extraction.py
-│   ├── trait_mapping.py
-│   ├── sequence_loader.py
-│   └── helper_functions.py
-│
-├── graphs/
-│   ├── trait_correlation.png
-│   ├── feature_heatmap.png
-│   └── adaptive_signature_curve.png
-│
-└── logs/
-    ├── analysis_log.json
-    └── feature_summary.txt
+graphs/
+   genescopex_graphs/
+      motif_frequency_plot.png
+      gc_content_plot.png
 
-#▶️ How to Run
-1. Install Python 3.9+
+logs/
+   genescopex_logs/
+      analysis_log.json
+      summary.txt
+```
 
-Check:
+---
 
+## ▶️ How to Run
+
+### **1. Install Python 3.9+**
+Check installation:
+```bash
 python --version
+```
 
-2. Install required libraries
-pip install numpy pandas matplotlib biopython
+### **2. Install dependencies**
+```bash
+pip install numpy matplotlib biopython
+```
 
-3. Run the GeneScopeX analysis
-python code/genescopex_analysis.py
+### **3. Run pattern analysis**
+```bash
+python code/genescopex_code/patterns.py
+```
 
+### **4. Run GC-content and motif visualization**
+```bash
+python code/genescopex_code/plot_patterns.py
+```
 
-This will automatically:
+Output files will appear in:
 
-Load sequences
+- `graphs/genescopex_graphs/`
+- `logs/genescopex_logs/`
 
-Extract evolutionary features
+---
 
-Run trait correlation analysis
+## 📊 Example Output
 
-Generate visualizations
+- **motif_frequency_plot.png** → frequency of detected motifs  
+- **gc_content_plot.png** → GC% across the sequence  
+- **summary.txt** → high-level pattern report  
+- **analysis_log.json** → full analysis details  
 
-Save logs and summaries
+---
 
-Outputs appear in:
-
-graphs/ → plots
-
-logs/ → JSON logs + summaries
-
-#📊 Example Outputs
-
-feature_heatmap.png → which positions influence traits
-
-trait_correlation.png → correlation between mutation groups & phenotype
-
-adaptive_signature_curve.png → cumulative adaptive signal
-
-feature_summary.txt → human-readable breakdown
-
-analysis_log.json → full run history
-
-#🎓 Notes for Reviewers
+## 🎯 Notes for Reviewers
 
 GeneScopeX demonstrates:
 
-advanced computational biology analysis
+- Foundational bioinformatics analysis  
+- Visualization of genomic features  
+- Clean Python scripting  
+- Proper data organization (code/graphs/logs)  
+- Independent research interest in computational genomics  
 
-ability to connect mutation patterns to phenotypic traits
+This project complements the other evolution-focused tools in the suite, providing analytical depth to your modeling work.
 
-independent research depth
+---
 
-strong Python architecture and project organization
+## 🔗 Portfolio Link
 
-clear data-visualization and scientific interpretation
 
-This project complements the rest of the evolution research suite by focusing on trait-level interpretation, bridging computational patterns and biological meaning.
